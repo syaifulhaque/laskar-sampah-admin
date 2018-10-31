@@ -28,14 +28,15 @@ class InputViewController: UIViewController, ScannerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.customNavigation()
-        self.setBackground()
         self.setDismissKeyboard()
         
         self.setViewDesign()
         self.setPickerViewData()
-        self.setDataPesanan()
         self.wasteTable.delegate = self
         self.wasteTable.dataSource = self
+
+        self.setDataPesanan()
+//        self.setBackground()
         
         self.sourceTextField.text = valueOfScanner
     }
@@ -53,80 +54,6 @@ class InputViewController: UIViewController, ScannerDelegate {
         self.typeTextField.text = InputViewController.tempTypeValue
         if let weight = InputViewController.tempWeight {
             self.weightTextField.text = weight
-        }
-    }
-    
-    private func customNavigation() {
-        self.navigationItem.setHidesBackButton(true, animated:true);
-        self.navigationItem.title = "Input Stock"
-    }
-    
-    private func setDismissKeyboard() {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
-        
-        view.addGestureRecognizer(tap)
-    }
-    
-    @objc func dismissKeyboard() {
-        view.endEditing(true)
-    }
-    
-    private func setBackground(){
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "steve-johnson-548294-unsplash")!)
-        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "steve-johnson-548294-unsplash")
-        backgroundImage.contentMode = .scaleAspectFit
-        self.view.insertSubview(backgroundImage, at: 0)
-    }
-    
-    private func setViewDesign() {
-        for background in backgroundViews {
-            background.layer.shadowOpacity = 0.3
-            background.layer.shadowOffset = CGSize.zero
-            background.layer.shadowRadius = 10
-            background.layer.cornerRadius = 15
-        }
-        
-        let cornerRadius : CGFloat = 5.0
-        
-        for button in stockButtons {
-            button.backgroundColor = UIColor.clear
-            button.layer.borderWidth = 2.0
-            button.layer.borderColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
-            button.layer.cornerRadius = cornerRadius
-        }
-    }
-    
-    func setPickerViewData() {
-        
-        pickerView.delegate = self
-        
-        let toolBar = UIToolbar()
-        toolBar.barStyle = UIBarStyle.default
-        toolBar.isTranslucent = true
-        toolBar.sizeToFit()
-        
-        let doneButton = UIBarButtonItem(title: "Done", style: UIBarButtonItem.Style.plain, target: self, action: #selector(donePicker))
-        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
-        
-        toolBar.setItems([spaceButton, doneButton], animated: false)
-        toolBar.isUserInteractionEnabled = true
-        
-        typeTextField.inputView = pickerView
-        typeTextField.inputAccessoryView = toolBar
-    }
-    
-    @objc func donePicker() {
-        InputViewController.tempTypeValue = self.typeTextField.text
-        self.typeTextField.resignFirstResponder()
-    }
-    
-    private func setDataPesanan()  {
-        for waste in wastes {
-            let berat = FunctionHelper.shared.randomFloat(min: 0.1, max: 10.0)
-            let harga = FunctionHelper.shared.randomDouble(min: 100.0, max: 5000.0)
-            let barang = BarangStruct(jenis: waste, berat: berat, harga: harga)
-            self.pesanans.append(barang)
         }
     }
     

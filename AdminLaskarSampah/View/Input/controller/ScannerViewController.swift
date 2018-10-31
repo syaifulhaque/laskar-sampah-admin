@@ -98,6 +98,9 @@ class ScannerViewController: UIViewController {
         self.navigationItem.title = "Scan"
         let backButton = UIBarButtonItem()
         backButton.title = "Back"
+        backButton.tintColor = #colorLiteral(red: 0.8235294118, green: 0.8117647059, blue: 0.2980392157, alpha: 1)
+        backButton.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.8235294118, green: 0.8117647059, blue: 0.2980392157, alpha: 1), NSAttributedString.Key.font : UIFont(name: "Futura", size: 20)!], for: .normal)
+        
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
     }
     

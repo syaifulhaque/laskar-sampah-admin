@@ -300,59 +300,122 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Admin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53s-kJ-00j">
-                                <rect key="frame" x="167" y="302" width="49" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Admin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53s-kJ-00j">
+                                <rect key="frame" x="0.0" y="302" width="375" height="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bank Sampah Omah Hijau" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OJP-ro-DA3">
-                                <rect key="frame" x="32" y="359" width="319" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bank Sampah Omah Hijau" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OJP-ro-DA3">
+                                <rect key="frame" x="75" y="353" width="275" height="30"/>
+                                <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Jalan Damai No 12, Serpong" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMv-sC-Akj">
-                                <rect key="frame" x="32" y="417" width="319" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Jalan Damai No 12, Serpong" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMv-sC-Akj">
+                                <rect key="frame" x="75" y="413" width="275" height="30"/>
+                                <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="omah.hijau@yahoo.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4K-sD-fmU">
-                                <rect key="frame" x="32" y="471" width="319" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="omah.hijau@yahoo.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4K-sD-fmU">
+                                <rect key="frame" x="75" y="473" width="275" height="30"/>
+                                <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="021-02213131" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eOG-Wk-06f">
-                                <rect key="frame" x="32" y="528" width="319" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="021-02213131" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eOG-Wk-06f">
+                                <rect key="frame" x="75" y="533" width="275" height="30"/>
+                                <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="steve-johnson-548294-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="7iU-hM-KMX">
-                                <rect key="frame" x="0.0" y="88" width="375" height="159"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="steve-johnson-548294-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="7iU-hM-KMX">
+                                <rect key="frame" x="0.0" y="88" width="375" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="hyi-au-rXi"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student" translatesAutoresizingMaskIntoConstraints="NO" id="AdG-SV-JRq">
-                                <rect key="frame" x="144" y="199" width="95" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="student" translatesAutoresizingMaskIntoConstraints="NO" id="AdG-SV-JRq">
+                                <rect key="frame" x="143.66666666666666" y="208" width="88" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="8kg-g2-eOU"/>
+                                    <constraint firstAttribute="height" constant="88" id="OjS-CX-3FQ"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5o-0t-k5D">
-                                <rect key="frame" x="150" y="650" width="74" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Submit"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NameButton" translatesAutoresizingMaskIntoConstraints="NO" id="zRL-AR-ZhY">
+                                <rect key="frame" x="15" y="353" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="KGA-Gd-qnS"/>
+                                    <constraint firstAttribute="height" constant="35" id="UgB-Td-Ybv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AddressIcon" translatesAutoresizingMaskIntoConstraints="NO" id="xeV-Df-dIX">
+                                <rect key="frame" x="15" y="413" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Ivv-iM-3Rv"/>
+                                    <constraint firstAttribute="width" constant="35" id="hQu-l9-o5b"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EmailIcon" translatesAutoresizingMaskIntoConstraints="NO" id="FYU-Gv-fuf">
+                                <rect key="frame" x="15" y="473" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="OAA-iH-Wrq"/>
+                                    <constraint firstAttribute="width" constant="35" id="Vn9-1R-J5a"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TelephoneIcon" translatesAutoresizingMaskIntoConstraints="NO" id="42V-Pz-jrC">
+                                <rect key="frame" x="15" y="533" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="AW2-Op-mjU"/>
+                                    <constraint firstAttribute="height" constant="35" id="KTX-Bg-l4A"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5o-0t-k5D">
+                                <rect key="frame" x="120" y="591" width="135" height="38"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="0.82352941176470584" green="0.81176470588235294" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="submitAction:" destination="fN7-gn-7qP" eventType="touchUpInside" id="gj0-fq-3sH"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.18823529411764706" green="0.54509803921568623" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xeV-Df-dIX" firstAttribute="top" secondItem="zRL-AR-ZhY" secondAttribute="bottom" constant="25" id="1Rb-KA-VGP"/>
+                            <constraint firstItem="42V-Pz-jrC" firstAttribute="top" secondItem="FYU-Gv-fuf" secondAttribute="bottom" constant="25" id="4xU-3K-zxB"/>
+                            <constraint firstItem="7iU-hM-KMX" firstAttribute="top" secondItem="Jex-i6-9Qv" secondAttribute="top" id="7Bg-bZ-e7w"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="c5o-0t-k5D" secondAttribute="trailing" constant="120" id="B7K-sU-xyV"/>
+                            <constraint firstItem="OJP-ro-DA3" firstAttribute="top" secondItem="53s-kJ-00j" secondAttribute="bottom" constant="25" id="B8V-Xy-cVm"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="OJP-ro-DA3" secondAttribute="trailing" constant="25" id="Cj9-eR-7ml"/>
+                            <constraint firstItem="42V-Pz-jrC" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" constant="15" id="DXZ-sN-dMk"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="leading" secondItem="7iU-hM-KMX" secondAttribute="leading" id="DwH-qW-J7j"/>
+                            <constraint firstItem="53s-kJ-00j" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" id="IAs-Co-mZq"/>
+                            <constraint firstItem="eOG-Wk-06f" firstAttribute="top" secondItem="I4K-sD-fmU" secondAttribute="bottom" constant="30" id="IGd-Wn-Vir"/>
+                            <constraint firstItem="UMv-sC-Akj" firstAttribute="leading" secondItem="xeV-Df-dIX" secondAttribute="trailing" constant="25" id="IMZ-Xv-iq1"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="7iU-hM-KMX" secondAttribute="trailing" id="IRR-of-Kft"/>
+                            <constraint firstItem="zRL-AR-ZhY" firstAttribute="top" secondItem="53s-kJ-00j" secondAttribute="bottom" constant="25" id="Iht-WI-jwg"/>
+                            <constraint firstItem="eOG-Wk-06f" firstAttribute="leading" secondItem="42V-Pz-jrC" secondAttribute="trailing" constant="25" id="JlD-L1-tg4"/>
+                            <constraint firstItem="FYU-Gv-fuf" firstAttribute="top" secondItem="xeV-Df-dIX" secondAttribute="bottom" constant="25" id="MfI-2B-GtO"/>
+                            <constraint firstItem="xeV-Df-dIX" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" constant="15" id="Onf-hE-qKe"/>
+                            <constraint firstItem="53s-kJ-00j" firstAttribute="top" secondItem="AdG-SV-JRq" secondAttribute="bottom" constant="6" id="PGM-r8-gCF"/>
+                            <constraint firstItem="AdG-SV-JRq" firstAttribute="top" secondItem="Jex-i6-9Qv" secondAttribute="top" constant="120" id="QGn-Zf-WXc"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="I4K-sD-fmU" secondAttribute="trailing" constant="25" id="Y1f-8j-el0"/>
+                            <constraint firstItem="AdG-SV-JRq" firstAttribute="centerX" secondItem="Jex-i6-9Qv" secondAttribute="centerX" id="ZbS-xI-kjb"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="53s-kJ-00j" secondAttribute="trailing" id="cBu-Oz-0TU"/>
+                            <constraint firstItem="UMv-sC-Akj" firstAttribute="top" secondItem="OJP-ro-DA3" secondAttribute="bottom" constant="30" id="cHt-Rb-BMG"/>
+                            <constraint firstItem="I4K-sD-fmU" firstAttribute="leading" secondItem="FYU-Gv-fuf" secondAttribute="trailing" constant="25" id="ch9-ZD-TkV"/>
+                            <constraint firstItem="I4K-sD-fmU" firstAttribute="top" secondItem="UMv-sC-Akj" secondAttribute="bottom" constant="30" id="cuW-oa-VaS"/>
+                            <constraint firstItem="c5o-0t-k5D" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" constant="120" id="djO-tQ-BQk"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="UMv-sC-Akj" secondAttribute="trailing" constant="25" id="esx-6o-iwf"/>
+                            <constraint firstItem="zRL-AR-ZhY" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" constant="15" id="fuj-W3-0Pk"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="eOG-Wk-06f" secondAttribute="trailing" constant="25" id="lpN-1M-roE"/>
+                            <constraint firstItem="OJP-ro-DA3" firstAttribute="leading" secondItem="zRL-AR-ZhY" secondAttribute="trailing" constant="25" id="rUd-Zf-eGA"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="bottom" secondItem="c5o-0t-k5D" secondAttribute="bottom" constant="100" id="spa-JT-evq"/>
+                            <constraint firstItem="FYU-Gv-fuf" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" constant="15" id="yWc-8s-I5w"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Jex-i6-9Qv"/>
                     </view>
                     <connections>
@@ -381,6 +444,14 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="myZ-eR-XR8">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.82352941176470584" green="0.81176470588235294" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                            <color key="textColor" red="0.82352941176470584" green="0.81176470588235294" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.82352941176470584" green="0.81176470588235294" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -393,6 +464,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AddressIcon" width="24" height="25"/>
+        <image name="EmailIcon" width="24" height="25"/>
+        <image name="NameButton" width="24" height="25"/>
+        <image name="TelephoneIcon" width="20" height="25"/>
         <image name="address" width="32" height="32"/>
         <image name="bankSampah" width="150" height="150"/>
         <image name="edit" width="25.600000381469727" height="25.600000381469727"/>

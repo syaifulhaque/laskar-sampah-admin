@@ -21,6 +21,8 @@ extension InputViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let header: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView
         header.textLabel?.textAlignment = NSTextAlignment.center
+        header.textLabel?.textColor = #colorLiteral(red: 0.3568627451, green: 0.3568627451, blue: 0.3568627451, alpha: 1)
+        header.textLabel?.font = UIFont(name: "Futura-Bold", size: 20)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -17,12 +17,18 @@ class EditProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Edit Profile"
         setBackgroundColorTextField()
         setDismissKeyboard()
         customView()
-    navigationController?.setNavigationBarHidden(navigationController?.isNavigationBarHidden == false, animated: true);
-        
+        self.customNavigation()
+    }
+    
+    func customNavigation() {
+        self.navigationItem.title = "Edit Profile"
+        self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.1882352941, green: 0.5450980392, blue: 0.4470588235, alpha: 1)
+        self.navigationController?.setNavigationBarHidden(navigationController?.isNavigationBarHidden == false, animated: true);
+//        self.navigationItem.backBarButtonItem?.tintColor = #colorLiteral(red: 0.8235294118, green: 0.8117647059, blue: 0.2980392157, alpha: 1)
+        //        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.8235294118, green: 0.8117647059, blue: 0.2980392157, alpha: 1), NSAttributedString.Key.font: UIFont(name: "Futura-Bold", size: 25)!]
     }
     
     func setBackgroundColorTextField() {
@@ -46,7 +52,7 @@ class EditProfileViewController: UIViewController {
         
         submitButton.backgroundColor = UIColor.clear
         submitButton.layer.borderWidth = 2.0
-        submitButton.layer.borderColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
+        submitButton.layer.borderColor = #colorLiteral(red: 0.8235294118, green: 0.8117647059, blue: 0.2980392157, alpha: 1)
         submitButton.layer.cornerRadius = cornerRadius
     }
     

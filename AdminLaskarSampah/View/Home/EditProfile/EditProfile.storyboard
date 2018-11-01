@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fN7-gn-7qP">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Edit Profile View Controller-->
+        <scene sceneID="8bh-o9-hYf">
+            <objects>
+                <viewController id="fN7-gn-7qP" customClass="EditProfileViewController" customModule="AdminLaskarSampah" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HxX-uV-agc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Admin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53s-kJ-00j">
+                                <rect key="frame" x="0.0" y="258" width="375" height="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bank Sampah Omah Hijau" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OJP-ro-DA3">
+                                <rect key="frame" x="75" y="309" width="275" height="30"/>
+                                <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Jalan Damai No 12, Serpong" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMv-sC-Akj">
+                                <rect key="frame" x="75" y="369" width="275" height="30"/>
+                                <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="omah.hijau@yahoo.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4K-sD-fmU">
+                                <rect key="frame" x="75" y="429" width="275" height="30"/>
+                                <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="021-02213131" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eOG-Wk-06f">
+                                <rect key="frame" x="75" y="489" width="275" height="30"/>
+                                <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="steve-johnson-548294-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="7iU-hM-KMX">
+                                <rect key="frame" x="0.0" y="44" width="375" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="hyi-au-rXi"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="student" translatesAutoresizingMaskIntoConstraints="NO" id="AdG-SV-JRq">
+                                <rect key="frame" x="143.66666666666666" y="164" width="88" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="8kg-g2-eOU"/>
+                                    <constraint firstAttribute="height" constant="88" id="OjS-CX-3FQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NameButton" translatesAutoresizingMaskIntoConstraints="NO" id="zRL-AR-ZhY">
+                                <rect key="frame" x="15" y="309" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="KGA-Gd-qnS"/>
+                                    <constraint firstAttribute="height" constant="35" id="UgB-Td-Ybv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AddressIcon" translatesAutoresizingMaskIntoConstraints="NO" id="xeV-Df-dIX">
+                                <rect key="frame" x="15" y="369" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Ivv-iM-3Rv"/>
+                                    <constraint firstAttribute="width" constant="35" id="hQu-l9-o5b"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EmailIcon" translatesAutoresizingMaskIntoConstraints="NO" id="FYU-Gv-fuf">
+                                <rect key="frame" x="15" y="429" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="OAA-iH-Wrq"/>
+                                    <constraint firstAttribute="width" constant="35" id="Vn9-1R-J5a"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TelephoneIcon" translatesAutoresizingMaskIntoConstraints="NO" id="42V-Pz-jrC">
+                                <rect key="frame" x="15" y="489" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="AW2-Op-mjU"/>
+                                    <constraint firstAttribute="height" constant="35" id="KTX-Bg-l4A"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5o-0t-k5D">
+                                <rect key="frame" x="120" y="640" width="135" height="38"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="0.82352941176470584" green="0.81176470588235294" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitAction:" destination="fN7-gn-7qP" eventType="touchUpInside" id="gj0-fq-3sH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18823529411764706" green="0.54509803921568623" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xeV-Df-dIX" firstAttribute="top" secondItem="zRL-AR-ZhY" secondAttribute="bottom" constant="25" id="1Rb-KA-VGP"/>
+                            <constraint firstItem="42V-Pz-jrC" firstAttribute="top" secondItem="FYU-Gv-fuf" secondAttribute="bottom" constant="25" id="4xU-3K-zxB"/>
+                            <constraint firstItem="7iU-hM-KMX" firstAttribute="top" secondItem="Jex-i6-9Qv" secondAttribute="top" id="7Bg-bZ-e7w"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="c5o-0t-k5D" secondAttribute="trailing" constant="120" id="B7K-sU-xyV"/>
+                            <constraint firstItem="OJP-ro-DA3" firstAttribute="top" secondItem="53s-kJ-00j" secondAttribute="bottom" constant="25" id="B8V-Xy-cVm"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="OJP-ro-DA3" secondAttribute="trailing" constant="25" id="Cj9-eR-7ml"/>
+                            <constraint firstItem="42V-Pz-jrC" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" constant="15" id="DXZ-sN-dMk"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="leading" secondItem="7iU-hM-KMX" secondAttribute="leading" id="DwH-qW-J7j"/>
+                            <constraint firstItem="53s-kJ-00j" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" id="IAs-Co-mZq"/>
+                            <constraint firstItem="eOG-Wk-06f" firstAttribute="top" secondItem="I4K-sD-fmU" secondAttribute="bottom" constant="30" id="IGd-Wn-Vir"/>
+                            <constraint firstItem="UMv-sC-Akj" firstAttribute="leading" secondItem="xeV-Df-dIX" secondAttribute="trailing" constant="25" id="IMZ-Xv-iq1"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="7iU-hM-KMX" secondAttribute="trailing" id="IRR-of-Kft"/>
+                            <constraint firstItem="zRL-AR-ZhY" firstAttribute="top" secondItem="53s-kJ-00j" secondAttribute="bottom" constant="25" id="Iht-WI-jwg"/>
+                            <constraint firstItem="eOG-Wk-06f" firstAttribute="leading" secondItem="42V-Pz-jrC" secondAttribute="trailing" constant="25" id="JlD-L1-tg4"/>
+                            <constraint firstItem="FYU-Gv-fuf" firstAttribute="top" secondItem="xeV-Df-dIX" secondAttribute="bottom" constant="25" id="MfI-2B-GtO"/>
+                            <constraint firstItem="xeV-Df-dIX" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" constant="15" id="Onf-hE-qKe"/>
+                            <constraint firstItem="53s-kJ-00j" firstAttribute="top" secondItem="AdG-SV-JRq" secondAttribute="bottom" constant="6" id="PGM-r8-gCF"/>
+                            <constraint firstItem="AdG-SV-JRq" firstAttribute="top" secondItem="Jex-i6-9Qv" secondAttribute="top" constant="120" id="QGn-Zf-WXc"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="I4K-sD-fmU" secondAttribute="trailing" constant="25" id="Y1f-8j-el0"/>
+                            <constraint firstItem="AdG-SV-JRq" firstAttribute="centerX" secondItem="Jex-i6-9Qv" secondAttribute="centerX" id="ZbS-xI-kjb"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="53s-kJ-00j" secondAttribute="trailing" id="cBu-Oz-0TU"/>
+                            <constraint firstItem="UMv-sC-Akj" firstAttribute="top" secondItem="OJP-ro-DA3" secondAttribute="bottom" constant="30" id="cHt-Rb-BMG"/>
+                            <constraint firstItem="I4K-sD-fmU" firstAttribute="leading" secondItem="FYU-Gv-fuf" secondAttribute="trailing" constant="25" id="ch9-ZD-TkV"/>
+                            <constraint firstItem="I4K-sD-fmU" firstAttribute="top" secondItem="UMv-sC-Akj" secondAttribute="bottom" constant="30" id="cuW-oa-VaS"/>
+                            <constraint firstItem="c5o-0t-k5D" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" constant="120" id="djO-tQ-BQk"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="UMv-sC-Akj" secondAttribute="trailing" constant="25" id="esx-6o-iwf"/>
+                            <constraint firstItem="zRL-AR-ZhY" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" constant="15" id="fuj-W3-0Pk"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="trailing" secondItem="eOG-Wk-06f" secondAttribute="trailing" constant="25" id="lpN-1M-roE"/>
+                            <constraint firstItem="OJP-ro-DA3" firstAttribute="leading" secondItem="zRL-AR-ZhY" secondAttribute="trailing" constant="25" id="rUd-Zf-eGA"/>
+                            <constraint firstItem="Jex-i6-9Qv" firstAttribute="bottom" secondItem="c5o-0t-k5D" secondAttribute="bottom" constant="100" id="spa-JT-evq"/>
+                            <constraint firstItem="FYU-Gv-fuf" firstAttribute="leading" secondItem="Jex-i6-9Qv" secondAttribute="leading" constant="15" id="yWc-8s-I5w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jex-i6-9Qv"/>
+                    </view>
+                    <connections>
+                        <outlet property="headerView" destination="7iU-hM-KMX" id="MaR-fg-rmS"/>
+                        <outlet property="imageProfile" destination="AdG-SV-JRq" id="kd5-e4-oeu"/>
+                        <outlet property="submitButton" destination="c5o-0t-k5D" id="ITL-I2-3l2"/>
+                        <outletCollection property="textFieldDatas" destination="OJP-ro-DA3" collectionClass="NSMutableArray" id="Tbf-eM-jAe"/>
+                        <outletCollection property="textFieldDatas" destination="UMv-sC-Akj" collectionClass="NSMutableArray" id="X0J-3Z-J2q"/>
+                        <outletCollection property="textFieldDatas" destination="I4K-sD-fmU" collectionClass="NSMutableArray" id="pE8-1r-pTE"/>
+                        <outletCollection property="textFieldDatas" destination="eOG-Wk-06f" collectionClass="NSMutableArray" id="05a-bM-g6y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hg-19-duN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476" y="-1529.5566502463055"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AddressIcon" width="24" height="25"/>
+        <image name="EmailIcon" width="24" height="25"/>
+        <image name="NameButton" width="24" height="25"/>
+        <image name="TelephoneIcon" width="20" height="25"/>
+        <image name="steve-johnson-548294-unsplash" width="4528" height="3019"/>
+        <image name="student" width="400.69564819335938" height="400.69564819335938"/>
+    </resources>
+</document>

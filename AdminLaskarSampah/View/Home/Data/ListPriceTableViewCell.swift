@@ -12,7 +12,7 @@ class ListPriceTableViewCell: UITableViewCell {
 
     
     
-    @IBOutlet weak var iconWaste: UIImageView!
+    //@IBOutlet weak var iconWaste: UIImageView!
     @IBOutlet weak var wasteCatName: UILabel!
     @IBOutlet weak var wastePoin: UILabel!
     

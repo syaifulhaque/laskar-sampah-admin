@@ -10,5 +10,6 @@ target 'AdminLaskarSampah' do
 
   # Pods for StickyHeader
   pod 'StickyHeaderTabController'
+  pod 'expanding-collection'
 
 end

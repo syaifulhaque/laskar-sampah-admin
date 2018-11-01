@@ -72,11 +72,7 @@ class InputViewController: UIViewController, ScannerDelegate {
     }
     
     private func setBackground(){
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "steve-johnson-548294-unsplash")!)
-        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "steve-johnson-548294-unsplash")
-        backgroundImage.contentMode = .scaleAspectFit
-        self.view.insertSubview(backgroundImage, at: 0)
+        
     }
     
     private func setViewDesign() {

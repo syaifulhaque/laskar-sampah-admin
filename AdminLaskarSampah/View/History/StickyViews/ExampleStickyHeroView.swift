@@ -63,7 +63,13 @@ class ExampleStickyHeroView: UIView {
     private func setUpNameLabel() {
         addSubview(nameLabel)
         nameLabel.text = "Bank Sampah Omah Hijau"
+        nameLabel.textColor = #colorLiteral(red: 0.85687536, green: 0.8371403813, blue: 0.36761868, alpha: 1)
+        nameLabel.font = UIFont(name: "Futura-Bold",
+                                size: 14.0)
         labelAddress.text = "Jalan Damai No. 12, Serpong"
+        labelAddress.textColor = #colorLiteral(red: 0.85687536, green: 0.8371403813, blue: 0.36761868, alpha: 1)
+        labelAddress.font = UIFont(name: "Futura-Bold",
+                                size: 14.0)
         addSubview(labelAddress)
     }
 

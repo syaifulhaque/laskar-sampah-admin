@@ -36,7 +36,7 @@ class HistoryViewController: StickyHeaderTabController {
         stickyHeader = exampleHeader
         hero = exampleHero
         tabBar = exampleTabBar
-        tabs = [StatesTabViewController(), ColorsTabViewController()]
+        tabs = [StatesTabViewController()]
     }
     
     // Private Methods
